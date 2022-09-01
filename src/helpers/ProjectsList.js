@@ -59,6 +59,16 @@ const ProjectList = [
     type: "SPA",
     skills: "React, TypeScript, CSS Modules, REST API",
   },
+  {
+    id: "6",
+    name: "Weather-app",
+    status: "Ready",
+    image: "https://i.ibb.co/vDj8SbL/2022-09-01-19-35-35.png",
+    linkDeploy: "https://exigoll.github.io/weather-app/",
+    linkDev: "https://github.com/Exigoll/weather-app",
+    type: "App",
+    skills: "JavaScript, CSS",
+  },
 ];
 
 export default ProjectList;
