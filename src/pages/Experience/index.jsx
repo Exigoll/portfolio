@@ -18,7 +18,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Perm Industrial and Commercial College, Perm city
           </h3>
-          <p> lawyer (my mistake)</p>
+          <p> lawyer</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -29,7 +29,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             First Moscow Law Institute, Moscow city
           </h3>
-          <p> lawyer (my mistake)</p>
+          <p> lawyer</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -43,7 +43,15 @@ function Experience() {
           <p />
           <h4 className="vertical-timeline-element-subtitle">Perm city</h4>
         </VerticalTimelineElement>
-
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2021 - present"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<School />}
+        >
+          <h3 className="vertical-timeline-element-title">I study on my own</h3>
+          <p />
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2022 - present"
@@ -53,7 +61,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">looking for a job</h3>
           <p />
           <h4 className="vertical-timeline-element-subtitle">
-            Saint Petersburg
+            Saint Petersburg / Perm / Moscow
           </h4>
         </VerticalTimelineElement>
       </VerticalTimeline>

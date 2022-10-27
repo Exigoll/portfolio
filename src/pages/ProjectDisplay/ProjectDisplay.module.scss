@@ -19,24 +19,48 @@
   &__img {
     @include adaptive-value("width", 500, 300, 0);
     border-radius: 10px;
-    transition: .3s ease-in-out;
+  }
 
-    &:hover {
-      opacity: .6;
-      transform: scale(1.01);
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    margin-top: 30px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  &__link {
+    svg {
+      height: 32px;
+      width: 32px;
+      @include adaptive-value("font-size", 40, 30, 0);
+      opacity: 1;
+      transition: .3s ease-in-out;
+
+      &:hover {
+        opacity: .5;
+        transform: scale(0.95);
+      }
+
+      &:active {
+        transform: scale(0.9);
+      }
     }
   }
 
-  p {
+  &__subtitle {
     @include adaptive-value("font-size", 30, 20, 0);
-  }
+    font-weight: 700;
 
-  svg {
-    @include adaptive-value("font-size", 40, 30, 0);
-    transition: .3s ease-in-out;
-
-    &:hover {
-      opacity: .5;
+    span {
+      font-weight: 400;
     }
   }
 }

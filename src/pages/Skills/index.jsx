@@ -8,19 +8,19 @@ function Skills() {
         <li className={styles.listSkills__item}>
           <h2 className={styles.listSkills__title}>Front-End:</h2>
           <span>
-            React, Redux / Redux Toolkit, Recoil, Next.js, Formik, React Hook
-            Form, MUI, SCSS, Tailwind, Styled-components, CSS Modules, HTML5
+            React, Redux / Redux Toolkit, Next.js, React Hook Form, MUI, Axios,
+            SCSS, Tailwind, Styled-components, CSS Modules, HTML5
           </span>
         </li>
         <li className={styles.listSkills__item}>
           <h2 className={styles.listSkills__title}>Back-End:</h2>
-          <span>Node.js, REST API, Firebase</span>
+          <span>Nest.js</span>
         </li>
         <li className={styles.listSkills__item}>
           <h2 className={styles.listSkills__title}>Others:</h2>
           <span>
-            Git, GitHub, Webpack, Gulp, ESLint, Prettier, Husky, BEM, Figma,
-            Photoshop
+            Webpack, Gulp, ESLint, Prettier, Husky, Figma, Photoshop, Firebase,
+            Insomnia, PostgreSQL
           </span>
         </li>
         <li className={styles.listSkills__item}>
