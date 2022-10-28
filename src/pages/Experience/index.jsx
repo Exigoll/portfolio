@@ -3,11 +3,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { School, Work } from "@mui/icons-material";
+import { School, Search, Work } from "@mui/icons-material";
+import styles from "./Experience.module.scss";
 
 function Experience() {
   return (
-    <div className="experience">
+    <div className={styles.experience}>
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -15,10 +16,12 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<School />}
         >
-          <h3 className="vertical-timeline-element-title">
-            Perm Industrial and Commercial College, Perm city
-          </h3>
-          <p> lawyer</p>
+          <div className={styles.item}>
+            <h3 className={styles.item__title}>
+              Perm Industrial and Commercial College, Perm city
+            </h3>
+            <h4 className={styles.item__subtitle}>Lawyer</h4>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -26,10 +29,12 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<School />}
         >
-          <h3 className="vertical-timeline-element-title">
-            First Moscow Law Institute, Moscow city
-          </h3>
-          <p> lawyer</p>
+          <div className={styles.item}>
+            <h3 className={styles.item__title}>
+              First Moscow Law Institute, Moscow city
+            </h3>
+            <h4 className={styles.item__subtitle}>Lawyer</h4>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -37,11 +42,10 @@ function Experience() {
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<Work />}
         >
-          <h3 className="vertical-timeline-element-title">
-            Municipal employee
-          </h3>
-          <p />
-          <h4 className="vertical-timeline-element-subtitle">Perm city</h4>
+          <div className={styles.item}>
+            <h3 className={styles.item__title}>Municipal employee</h3>
+            <h4 className={styles.item__subtitle}>Perm city</h4>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -49,20 +53,34 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<School />}
         >
-          <h3 className="vertical-timeline-element-title">I study on my own</h3>
-          <p />
+          <div className={styles.item}>
+            <h3 className={styles.item__title}>
+              I study on my own. Completed courses:
+            </h3>
+            <h4 className={styles.item__subtitle}>
+              React for modern web applications.
+              <span>Author: M. Nepomniachtchi</span>
+            </h4>
+            <h4 className={styles.item__subtitle}>
+              Fundamental JavaScript.<span>Author: M. Nepomniachtchi</span>
+            </h4>
+            <h4 className={styles.item__subtitle}>
+              Practical JavaScript.<span>Author: A. Lushchenko</span>
+            </h4>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2022 - present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<Work />}
+          icon={<Search />}
         >
-          <h3 className="vertical-timeline-element-title">looking for a job</h3>
-          <p />
-          <h4 className="vertical-timeline-element-subtitle">
-            Saint Petersburg / Perm / Moscow
-          </h4>
+          <div className={styles.item}>
+            <h3 className={styles.item__title}>looking for a job</h3>
+            <h4 className={styles.item__subtitle}>
+              Saint Petersburg / Perm / Moscow
+            </h4>
+          </div>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
