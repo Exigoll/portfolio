@@ -65,6 +65,28 @@ const ProjectList = [
     type: "Landing page",
     stack: "JavaScript, HTML, SCSS",
   },
+  {
+    id: "6",
+    name: "Chat in real time",
+    status: "Ready",
+    image:
+      "https://res.cloudinary.com/djqpiccvn/image/upload/v1697769367/portfolio/7_mqxums.png",
+    linkDeploy: "https://chat-real-time-0cc2.onrender.com/chat",
+    linkDev: "https://github.com/Exigoll/chat-real-time",
+    type: "FullStack",
+    stack: "NestJs, Prisma, Websocket",
+  },
+  {
+    id: "7",
+    name: "Crypto-pro",
+    status: "Ready",
+    image:
+      "https://res.cloudinary.com/djqpiccvn/image/upload/v1697769367/portfolio/8_ugl0ha.png",
+    linkDev: "https://github.com/Exigoll/frontend-ctypto-pro",
+    linkDevBackend: "https://github.com/Exigoll/backend-crypto-pro",
+    type: "SPA",
+    stack: "JNestJs, React, Redux, MUI",
+  },
 ];
 
 export default ProjectList;

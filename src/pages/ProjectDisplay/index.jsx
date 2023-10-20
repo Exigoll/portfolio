@@ -23,6 +23,14 @@ function ProjectDisplay() {
           >
             <GitHub />
           </a>
+          <a
+            className={styles.project__link}
+            href={project.linkDevBackend}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHub />
+          </a>
         </li>
         <li className={styles.project__item}>
           <p className={styles.project__subtitle}>Link to deploy:</p>
