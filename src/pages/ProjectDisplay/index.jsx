@@ -14,7 +14,7 @@ function ProjectDisplay() {
       <img className={styles.project__img} src={project.image} alt="Project" />
       <ul className={styles.project__list}>
         <li className={styles.project__item}>
-          <p className={styles.project__subtitle}>Link to GitHub:</p>
+          <p className={styles.project__subtitle}>Link to GitHub Frontend:</p>
           <a
             className={styles.project__link}
             href={project.linkDev}
@@ -23,6 +23,9 @@ function ProjectDisplay() {
           >
             <GitHub />
           </a>
+        </li>
+        <li className={styles.project__item}>
+          <p className={styles.project__subtitle}>Link to GitHub Backend:</p>
           <a
             className={styles.project__link}
             href={project.linkDevBackend}

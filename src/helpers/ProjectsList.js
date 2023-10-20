@@ -12,17 +12,6 @@ const ProjectList = [
   },
   {
     id: "1",
-    name: "Netflix",
-    status: "In work",
-    image:
-      "https://res.cloudinary.com/djqpiccvn/image/upload/v1666868967/portfolio/2_gk7tjs.png",
-    linkDeploy: "https://netflix-next-ts.vercel.app/",
-    linkDev: "https://github.com/Exigoll/netflix",
-    type: "SPA",
-    stack: "React, Next.js, TypeScript, SCSS, Tailwind",
-  },
-  {
-    id: "2",
     name: "This portfolio",
     status: "Ready",
     image:
@@ -33,29 +22,7 @@ const ProjectList = [
     stack: "React, CSS Modules",
   },
   {
-    id: "3",
-    name: "Calculator",
-    status: "Ready",
-    image:
-      "https://res.cloudinary.com/djqpiccvn/image/upload/v1666868966/portfolio/5_r79iwa.png",
-    linkDeploy: "https://exigoll.github.io/calculator/",
-    linkDev: "https://github.com/Exigoll/calculator",
-    type: "SPA",
-    stack: "React, TypeScript, SCSS",
-  },
-  {
-    id: "4",
-    name: "Weather-app",
-    status: "Ready",
-    image:
-      "https://res.cloudinary.com/djqpiccvn/image/upload/v1666868966/portfolio/6_sp0tje.png",
-    linkDeploy: "https://exigoll.github.io/weather-app/",
-    linkDev: "https://github.com/Exigoll/weather-app",
-    type: "App",
-    stack: "JavaScript, CSS",
-  },
-  {
-    id: "5",
+    id: "2",
     name: "My first portfolio",
     status: "Ready",
     image:
@@ -66,18 +33,18 @@ const ProjectList = [
     stack: "JavaScript, HTML, SCSS",
   },
   {
-    id: "6",
+    id: "3",
     name: "Chat in real time",
     status: "Ready",
     image:
-      "https://res.cloudinary.com/djqpiccvn/image/upload/v1697769367/portfolio/7_mqxums.png",
+      "https://res.cloudinary.com/djqpiccvn/image/upload/v1697772248/portfolio/7_ivtqrn.png",
     linkDeploy: "https://chat-real-time-0cc2.onrender.com/chat",
     linkDev: "https://github.com/Exigoll/chat-real-time",
     type: "FullStack",
     stack: "NestJs, Prisma, Websocket",
   },
   {
-    id: "7",
+    id: "4",
     name: "Crypto-pro",
     status: "Ready",
     image:
